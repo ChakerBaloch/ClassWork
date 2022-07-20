@@ -52,8 +52,8 @@ unordered lists alignment
 .lists {
         position: relative;
         position: absolute;
-        left: 30%;
-        transform: translatex(-20%);
+        bottom: 50%;
+        transform: translatex(160%);
       }
 
       /*
