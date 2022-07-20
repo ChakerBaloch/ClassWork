@@ -1,18 +1,106 @@
+/*
+Body Structure
+*/
 body{
-    background-color: rgb(219, 136, 64);
+    background-image: url(./backgroundImage.jpg);
+    background-size:cover;
+       
+        
+      }
+
+
+/*
+Image croping 
+*/
+.myimg{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 30%;
+    border-image: 70%; border-color: brown;
+
 }
+.myimg{
+    margin:80px;
+    width: 15%;
+    border: 3px solid #73ad21;
+    padding:10px;
+}
+
+/* h1 alignment
+*/
+h1 {
+    color: blueviolet;
+    height: 100px;
+    line-height: 250px; 
+    text-align:left;
+
+}
+   
+/*
+introduction alignment
+*/
+p{
+    height: 100px;
+    line-height: 160px; 
+    text-align:left; 
+}
+
+/*
+unordered lists alignment
+*/
+.lists {
+        position: relative;
+        position: absolute;
+        left: 30%;
+        transform: translatex(-20%);
+      }
+
+      /*
+      Ordered list alignment
+      */
+.list2{
+   
+        position: relative;
+        position: absolute;
+        bottom: 30%;
+        transform: translatex(160%);
+      }
+
+      /*
+      linkedln link alignment
+      */
+      .button-container{
+        position: relative;
+        position: absolute;
+        bottom: 20%;
+        transform: translatex(160%);
+      }
+/*    
+}
+.myimg{
+    float:left;
+}*/
+
+
 
 body{
     text-align: center;
+   
 }
+/*
 h1{
-    color:purple;
+    color:purple; background-color: rgb(26, 117, 197);
+    padding:4px 6px 7px 4px;
+    margin: 40px 11px 12px 40px;
 }
 
 #firstList {
-    color:rgb(154, 30, 102); 
-
+    color:rgb(154, 30, 102); background-color: aqua;
+    padding:5px 6px 7px 8px;
+    margin: 2px 30px 30px 30px;
 }
+
 
 #secondList {
     color:rgb(153, 22, 146)
@@ -27,12 +115,24 @@ h1{
         width:100%;
         height:100%;
     }
+    */
 .lists ul li{
     
     width:200px;margin:5px auto;
     text-align: left;
+
+    
 }
 .list2 ol li{
     width:200px; margin:5px auto;
     text-align: left;
+
+   
+}
+
+p{
+    font-size: 18px;
+}
+div{
+    border:rgb(26, 117, 197)
 }
