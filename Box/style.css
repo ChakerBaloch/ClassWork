@@ -1,9 +1,17 @@
-div{
-    background-color:yellow;
+h1{
+    background-color:rgb(233, 241, 233);
+    border: 5px solid rgb(127, 188, 52);
 }
 div{
-    margin: 150px;
-    border: 5px solid #4CAF50;
-    padding:80px;
-    border: 1px solid red;
+    background-color: brown;
+    margin:0% 5%;
+    padding: 10%;
+    border: 3px solid black;
+}
+
+div.paragraph{
+    background-color: cornflowerblue;
+    margin: 3%;
+    padding: 10%;
+    border: 3px solid rgb(63, 149, 44);
 }
