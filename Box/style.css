@@ -1,3 +1,4 @@
+/*
 h1{
     background-color:rgb(233, 241, 233);
     border: 5px solid rgb(127, 188, 52);
@@ -8,10 +9,29 @@ div{
     padding: 10%;
     border: 3px solid black;
 }
+*/
 
-div.paragraph{
-    background-color: cornflowerblue;
-    margin: 3%;
-    padding: 10%;
-    border: 3px solid rgb(63, 149, 44);
+/*
+div.big-box{
+     width: 100px;
+     height: 100px;
+     background-color: gray;
+}
+
+div.little-box{
+    background-color: lightgray;
+    width: 100px;
+    height: 100px;
+}
+*/
+.big-box,.little-box{
+    width: 100px;
+    height: 100px;
+
+}
+.big-box{
+    background-color: rgb(107, 51, 52);
+}
+.little-box{
+    background-color: blueviolet;
 }
